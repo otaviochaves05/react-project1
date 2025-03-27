@@ -1,5 +1,6 @@
 type BookProps = {
     book: {
+        id: number,
         title: string,
         pages: number,
         isRead: boolean,
