@@ -1,10 +1,10 @@
-import User from "./user";
-
+import User from "../user";
+import "./footer.css"
 
 
 function Footer(){
     return(
-        <footer>
+        <footer className="footer">
             Acessando como: <User/>
         </footer>
     )
